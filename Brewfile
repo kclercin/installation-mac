@@ -18,6 +18,7 @@ brew "mongodb-community@8.0"
 brew "docker-compose"
 
 # 📦 Apps Mac (GUI)
+cast "gather"
 cask "google-chrome"
 cask "microsoft-teams"
 cask "visual-studio-code"
