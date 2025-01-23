@@ -67,6 +67,11 @@ gem install foreman
 echo "Installation de scalingo..."
 curl -O https://cli-dl.scalingo.com/install && bash install
 
+echo "Configuration de dnsmasq..."
+mkdir -pv $(brew --prefix)/etc/
+echo 'address=/.test/127.0.0.1' >> $(brew --prefix)/etc/dnsmasq.conf
+sudo brew services start dnsmasq
+
 exec zsh
 
 ssh-keygen -t rsa -b 4096
