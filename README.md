@@ -1,4 +1,4 @@
-# Installation d'un mac OS AMD clean
+# Installation d'un mac AMD clean
 
 Utilisation :
 ```
