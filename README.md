@@ -11,4 +11,3 @@ Installation des application uniquement :
 ```
   brew bundle
 ```
-
