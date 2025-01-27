@@ -70,6 +70,9 @@ curl -O https://cli-dl.scalingo.com/install && bash install
 echo "Configuration de dnsmasq..."
 mkdir -pv $(brew --prefix)/etc/
 echo 'address=/.test/127.0.0.1' >> $(brew --prefix)/etc/dnsmasq.conf
+echo 'port=53' >> $(brew --prefix)/etc/dnsmasq.conf
+sudo mkdir -v /etc/resolver
+sudo bash -c 'echo "nameserver 127.0.0.1" > /etc/resolver/test'
 sudo brew services start dnsmasq
 
 exec zsh

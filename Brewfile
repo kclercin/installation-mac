@@ -16,6 +16,7 @@ brew "dnsmasq"
 brew "mysql"
 brew "mongodb-community@8.0"
 brew "docker-compose"
+brew "redis"
 
 # 📦 Apps Mac (GUI)
 cask "gather"
@@ -34,3 +35,8 @@ cask "bbedit"
 cask "obsidian"
 cask "mongodb-compass"
 cask "deepl"
+
+# 🎨 Fonts (nécessite le tap homebrew/cask-fonts)
+tap "homebrew/cask-fonts"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
