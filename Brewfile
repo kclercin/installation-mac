@@ -17,6 +17,7 @@ brew "mysql"
 brew "mongodb-community@8.0"
 brew "docker-compose"
 brew "redis"
+brew "git-flow"
 
 # 📦 Apps Mac (GUI)
 cask "gather"
