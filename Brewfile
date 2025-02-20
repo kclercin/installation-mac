@@ -36,6 +36,7 @@ cask "bbedit"
 cask "obsidian"
 cask "mongodb-compass"
 cask "deepl"
+cask "omnidisksweeper"
 
 # 🎨 Fonts (nécessite le tap homebrew/cask-fonts)
 tap "homebrew/cask-fonts"
