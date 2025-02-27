@@ -18,6 +18,9 @@ brew "mongodb-community@8.0"
 brew "docker-compose"
 brew "redis"
 brew "git-flow"
+brew "openssl"
+brew "readline"
+brew "libyaml"
 
 # 📦 Apps Mac (GUI)
 cask "gather"
