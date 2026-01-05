@@ -13,7 +13,6 @@ brew "helm"
 brew "derailed/k9s/k9s"
 brew "kubectx"
 brew "dnsmasq"
-brew "mysql"
 # brew "mongodb-community@8.0"
 brew "docker-compose"
 brew "redis"
@@ -23,25 +22,29 @@ brew "readline"
 brew "libyaml"
 
 # 📦 Apps Mac (GUI)
-cask "gather"
+# cask "gather"
 cask "google-chrome"
 cask "microsoft-teams"
-cask "visual-studio-code"
 cask "postman"
 cask "chatgpt"
-cask "sequel-ace"
 cask "slack"
 cask "raycast"
 cask "notion"
 cask "fork"
-cask "gitbutler"
+# cask "gitbutler"
 cask "bbedit"
 cask "obsidian"
 cask "mongodb-compass"
-cask "deepl"
+cask "cursor"
 cask "omnidisksweeper"
+
+# MYSQL SETUP
+# brew "mysql"
+# GUI mysql
+# cask "sequel-ace" 
 
 # 🎨 Fonts (nécessite le tap homebrew/cask-fonts)
 tap "homebrew/cask-fonts"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
+
