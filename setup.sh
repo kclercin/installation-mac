@@ -76,5 +76,3 @@ sudo bash -c 'echo "nameserver 127.0.0.1" > /etc/resolver/test'
 sudo brew services start dnsmasq
 
 exec zsh
-
-ssh-keygen -t rsa -b 4096
