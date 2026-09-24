@@ -37,6 +37,7 @@ cask "obsidian"
 cask "mongodb-compass"
 cask "visual-studio-code"
 cask "omnidisksweeper"
+cask "warp"
 
 # MYSQL SETUP
 # brew "mysql"
@@ -44,7 +45,6 @@ cask "omnidisksweeper"
 # cask "sequel-ace" 
 
 # 🎨 Fonts (nécessite le tap homebrew/cask-fonts)
-tap "homebrew/cask-fonts"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 
