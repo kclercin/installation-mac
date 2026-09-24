@@ -39,6 +39,7 @@ cask "mongodb-compass"
 cask "visual-studio-code"
 cask "omnidisksweeper"
 cask "warp"
+cask "linear"
 
 # MYSQL SETUP
 # brew "mysql"
